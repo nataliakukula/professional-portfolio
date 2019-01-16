@@ -145,7 +145,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #B75D69;
+		color: #C5D86D;
 	}
 
 		a:hover {
@@ -316,7 +316,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #B75D69;
+		background: #C5D86D;
 		color: #FFF;
 		border-radius: 4px;
 		border: 0;
@@ -589,7 +589,7 @@
 		select:focus,
 		textarea:active,
 		textarea:focus {
-			border: solid 1px #B75D69;
+			border: solid 1px #C5D86D;
 		}
 
 	.select-wrapper {
@@ -866,19 +866,34 @@
 					-webkit-transform: scale(1.075);
 					-ms-transform: scale(1.075);
 					transform: scale(1.075);
-					opacity: 0.5;
+					opacity: 0.2;
 				}
 
 				.overlay {
 					background-image: url("../../images/img-underlay.jpg");
 					background-repeat: no-repeat;
-					background-size: cover;
-					/* background-color: #F8C0C8; */
-					/* background-color: #C5D86D; */
+					/* background-size: cover; */
 				}
 
 				.text {
 					visibility: hidden;
+				}
+
+				.top {
+					top: 40%;
+					left: 2%;
+					align-self: center;
+					font-size: 30px;
+					color: white;
+					text-shadow: 0 0 10px #FFFFFF;
+				}
+
+				.bottom {
+					top: 55%;
+					right: 2%;
+					font-size: 18px;
+					color: white;
+					text-shadow: 0 0 10px #FFFFFF;
 				}
 
 				.gallery .content .media:hover .overlay .text {
@@ -1445,7 +1460,7 @@
 					}
 
 					#nav ul li a.active {
-						color: #B75D69;
+						color: #C5D86D;
 					}
 
 				@media screen and (max-width: 736px) {
