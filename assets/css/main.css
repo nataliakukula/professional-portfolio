@@ -866,7 +866,25 @@
 					-webkit-transform: scale(1.075);
 					-ms-transform: scale(1.075);
 					transform: scale(1.075);
+					opacity: 0.5;
 				}
+
+				.overlay {
+					background-image: url("../../images/img-underlay.jpg");
+					background-repeat: no-repeat;
+					background-size: cover;
+					/* background-color: #F8C0C8; */
+					/* background-color: #C5D86D; */
+				}
+
+				.text {
+					visibility: hidden;
+				}
+
+				.gallery .content .media:hover .overlay .text {
+					visibility: visible;
+				}
+
 
 				@media screen and (max-width: 736px) {
 
