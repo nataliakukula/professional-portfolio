@@ -938,6 +938,10 @@
 			display: none;
 		}
 
+		.centered {
+			text-align: center;
+		}
+
 /* Image */
 
 	.image {
